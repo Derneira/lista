@@ -12,3 +12,26 @@
   align-items: center;
   display: flex;
   }
+
+  .lista{
+    border: 1px black solid;
+    height: 600px;
+    width: 400px;
+    margin-top: 10px;
+  }
+
+  .adicionar{
+    height: 30px;
+    width: 350px;
+  }
+  .enviar{
+    height: 30px;
+    width: 45px;
+  }
+  .componente{
+    border: black 0.5px solid;
+    height: 30px;
+  }
+  .check{
+    margin: 6px;
+  }
