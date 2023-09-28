@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<div id="header" class="header">
+  <h2>Lista To Do</h2>
+  <input type="text" id="tarefa" placeholder="Tarefa">
+  <span onclick="newElement()" class="adicionar">Adicionar</span>
+</div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-  <div class="container">
-    <input type="text" class="adicionar" id="adicionar">
-    <button class="enviar" id="enviar">enviar</button>
-    <div class="lista" id="lista">
-      <li class="componente" id="componente">
-        <input type="checkbox" class="check">
-        <div class="textolista" id="textolista">
-          teste
-        </div>
-        <button class="excluir" id="excluir">
-          x
-        </button>
-      </li>
-    </div>
-  </div>
-</body>
-
-</html>
+<ul id="lista">
+</ul>
